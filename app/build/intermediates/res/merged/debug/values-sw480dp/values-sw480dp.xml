@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Administrator/Desktop/coloring-book-android/app/src/main/res/values-sw480dp/layouts.xml -->
+    <eat-comment/>
+    <bool name="isExtraLarge">false</bool>
+    <bool name="isLarge">false</bool>
+    <bool name="isNormal">false</bool>
+    <bool name="isSmall">true</bool>
+    <bool name="isTablet">true</bool>
+</resources>

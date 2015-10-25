@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Administrator/Desktop/coloring-book-android/app/src/main/res/values/layouts.xml -->
+    <eat-comment/>
+    <bool name="isExtraLarge">false</bool>
+    <bool name="isLarge">false</bool>
+    <bool name="isNormal">false</bool>
+    <bool name="isSmall">false</bool>
+    <bool name="isTablet">false</bool>
+    <!-- From: file:/C:/Users/Administrator/Desktop/coloring-book-android/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">涂色书</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ib_left_content_description">Button to go to the previous page.</string>
+    <string name="ib_main_color_content_description">Button to navigate to the coloring book.</string>
+    <string name="ib_main_help_content_description">Button to navigate to the Help Screen.</string>
+    <string name="ib_main_settings_content_description">Button to navigate to the Settings screen.</string>
+    <string name="ib_pager_left_content_description">Button to select the previous coloring book.</string>
+    <string name="ib_pager_right_content_description">Button to select the next coloring book.</string>
+    <string name="ib_right_content_description">Button to go to the next page.</string>
+    <string name="ib_settings_credits_content_description">Button to navigate to the Credits screen.</string>
+    <string name="ib_settings_shop_content_description">Button to navigate to the Shop screen.</string>
+    <string name="ib_shop_book_2_farm_animals_content_description">Button to buy the "Farm Animals" coloring book.</string>
+    <string name="iv_main_title_content_description">Coloring Book</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tv_help"><![CDATA[<b>主界面导航</b> - 切换所有可用的涂色书，点击对应的书选择图色<br /><br />
+
+<b>涂色页面</b> - 使用左上角和右上角的切换按钮选择图色页<br /><br />
+
+左下角的按钮可以切换<b>涂色笔</b>和<b>颜料桶</b>模式<br /><br />
+
+使用橡皮按钮来清除涂色<br /><br />
+
+<b>设置按钮</b> - 设置音乐，检查版本<br /><br />
+
+<b>帮助按钮</b> - 查看本帮助界面]]></string>
+    <string name="tv_settings_credits_label">关于我们</string>
+    <string name="tv_settings_label">Settings</string>
+    <string name="tv_settings_music_label">音乐</string>
+    <string name="tv_settings_shop_label">检查更新</string>
+    <string name="tv_shop">Shop</string>
+    <string name="tv_shop_book_2_farm_animals_label">Farm Animals Pack</string>
+    <string name="tv_shop_description">Each pack is a pay once unlimited use item.</string>
+    <!-- From: file:/C:/Users/Administrator/Desktop/coloring-book-android/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
