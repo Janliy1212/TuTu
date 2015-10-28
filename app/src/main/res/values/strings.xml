@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">涂色书</string>
+    <string name="app_name">TuTu</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="ib_main_color_content_description">Button to navigate to the coloring book.</string>
