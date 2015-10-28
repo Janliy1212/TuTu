@@ -3,7 +3,7 @@
     android:id="@+id/rlColorGlobal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00163b"
+    android:background="#76f5f833"
     android:baselineAligned="false" >
 
     <RelativeLayout
