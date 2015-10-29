@@ -25,6 +25,10 @@ package net.globide.coloring_book;
  * Defines the class that will store a row from the category table in the
  * database.
  */
+/**
+ * Defines the class that will store a row from the category table in the
+ * database.
+ */
 public class Category {
 
     // The current row's category id.
