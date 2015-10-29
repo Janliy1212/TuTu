@@ -325,12 +325,12 @@ public class Administrator extends JFrame {
 		}
 	}
 
-	/**
+	
 	 * Main entry of the class.
 	 * Note: This class is only created so that you can easily preview the result at runtime.
 	 * It is not expected to be managed by the designer.
 	 * You can modify it as you like.
-	 */
+	 
 	public static void main(String[] args) {
 		installLnF();
 		SwingUtilities.invokeLater(new Runnable() {
@@ -348,19 +348,19 @@ public class Administrator extends JFrame {
 			}
 		});
 	}
-	//查询
+	//
 	private void jButton0ActionActionPerformed(ActionEvent event) throws Exception{
 		new query();
         this.dispose();
     }
-	//开户
+	//
 	private void jButton1ActionActionPerformed(ActionEvent event) throws Exception{
     	new Open().setVisible(true);
         this.dispose();
     }
-	//销户
+	//
 	private void jButton2ActionActionPerformed(ActionEvent event) throws Exception{
-		new Admini1("销户").setVisible(true);
+		new Admini1("").setVisible(true);
         this.dispose();
     }
 	//退出
@@ -370,29 +370,29 @@ public class Administrator extends JFrame {
     }
     //挂失
     private void jButton4ActionActionPerformed(ActionEvent event) throws Exception{
-    	new Admini1("挂失").setVisible(true);
+    	new Admini1("").setVisible(true);
         this.dispose();
     }
-    //解挂
+    //
     private void jButton5ActionActionPerformed(ActionEvent event) throws Exception{
-    	new Admini1("解挂").setVisible(true);
+    	new Admini1("").setVisible(true);
         this.dispose();
     }
-    //冻结
+    //
     private void jButton6ActionActionPerformed(ActionEvent event) throws Exception{
-    	new Admini1("冻结").setVisible(true);
+    	new Admini1("").setVisible(true);
         this.dispose();
     }
-    //解冻
+    //
     private void jButton7ActionActionPerformed(ActionEvent event) throws Exception{
-    	new Admini1("解冻").setVisible(true);
+    	new Admini1("").setVisible(true);
         this.dispose();
     }
     //ATM
     private void jButton8ActionActionPerformed(ActionEvent event) throws Exception{
     	sqldatabase qlda=new sqldatabase();
     	qlda.sqlcha();
-    	qlda.sql="select 余额 from Atminfo where 操作次数=( select max(操作次数) from Atminfo)";
+    	qlda.sql="select  from Atminfo where 操作次数=( select max(操作次数) from Atminfo)";
     	qlda.set=qlda.stmt.executeQuery(qlda.sql);
     	float last = 0;
     	while(qlda.set.next()){
